@@ -194,7 +194,7 @@ if($record != null) {
         function parallaxScroll(){
             var scrolled = $(window).scrollTop();
             $('#why-blue-line').css('top',(0-(scrolled*.1))+'px');
-            $('#why-green-line').css('top',(0-(scrolled*.8))+'px');
+            $('#why-green-line').css('top',(0-(scrolled*.6))+'px');
             $('#why-purple-line').css('top',(0-(scrolled*.3))+'px');
             $('#why-pink-line').css('top',(0-(scrolled*.1))+'px');
             $('#why-orange-line').css('top',(0-(scrolled*.2))+'px');

@@ -337,11 +337,12 @@ body {
 }
 .green-line {
   background: url(images/line-7ce232.png) 0 0 no-repeat;
-  margin-top: 400px;
+  margin-top: 235px;
   margin-left: -460px;
 }
 .purple-line {
   background: url(images/line-de7eff.png) 0 0 no-repeat;
+  margin-top: 25px;
   margin-left: 475px;
 }
 .pink-line {
