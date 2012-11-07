@@ -148,10 +148,14 @@
   			  })<?php
 $record = null;
 
-try {
-   $record = geoip_record_by_name($_SERVER['REMOTE_ADDR']);
-} catch (Exception $e) {
+if (function_exists('geoip_record_by_name')) {
+  try {
+    $record = geoip_record_by_name($_SERVER['REMOTE_ADDR']);
+  } catch (Exception $e) {
    $record = null;
+ }
+} else {
+  $record = null;
 }
 
 if($record != null) {
