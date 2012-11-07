@@ -24,7 +24,7 @@
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
   <!--  Google Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Changa+One:400,400italic' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Changa+One:400,400italic" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" href="style.css" type="text/css" media="screen, projection" />
 
@@ -83,7 +83,7 @@
 
         <div class="content">
           <h3>Where does JoyRide work?</h3>
-          <p>JoyRide is available in many metropolitan regions in North America. If you don't see your city on the map below, tell your local transit agency via OpenPlans' <a href="http://transitdata.openplans.org/">Transit Data Dashboard</a>.</p>
+          <p>JoyRide is available in many metropolitan regions in North America. If you don&#8217;t see your city on the map below, tell your local transit agency via OpenPlans&#8217; <a href="http://transitdata.openplans.org/">Transit Data Dashboard</a>.</p>
         </div>
 
       </div>
@@ -99,8 +99,8 @@
         <div class="content">
           <h3>Why another transit app?</h3>
 	        <p>With the announcement of iOS version 6, Apple has dropped Google Maps and with it, previously built-in support for travel directions via public transit.</p>
-	        <p>JoyRide brings public transit directions back to the iPhone, adding features that Google Maps didn’t have, including combining walking, bikes, bike-share and transit together, finding the fastest and most efficient trips regardless of mode of transportation.</p>
-          <p>At OpenPlans, we believe the way we get around is changing. We increasingly combine bikes and transit. And in many cities we’re seeing a birth of whole new modes of transport like bike-share and carshare. At OpenPlans we build open source tools that are responsive to these changes and let us imagine new ways of moving.  </p>
+	        <p>JoyRide brings public transit directions back to the iPhone, adding features that Google Maps didn&#8217;t have, including combining walking, bikes, bike-share and transit together, finding the fastest and most efficient trips regardless of mode of transportation.</p>
+          <p>The way we get around is changing. We increasingly combine bikes and transit. And in many cities we&#8217;re seeing a birth of whole new modes of transport like bike-share and carshare. At OpenPlans we build open source tools that are responsive to these changes and let us imagine new ways of moving.  </p>
         </div>
 
       </div>

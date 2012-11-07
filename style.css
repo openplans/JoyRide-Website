@@ -314,6 +314,10 @@ body {
   width: 700px;
   margin: 0 auto;
 }
+.who .content p,
+.why .content p {
+  text-shadow: -1px 1px 0 #eee;
+}
 
 
 /* =Media Queries for Responsive Layout
