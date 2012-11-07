@@ -338,7 +338,7 @@ body {
 .green-line {
   background: url(images/line-7ce232.png) 0 0 no-repeat;
   margin-top: 400px;
-  margin-left: -600px;
+  margin-left: -460px;
 }
 .purple-line {
   background: url(images/line-de7eff.png) 0 0 no-repeat;
@@ -346,13 +346,13 @@ body {
 }
 .pink-line {
   background: url(images/line-ec297b.png) 0 0 no-repeat;
-  margin-top: 340px;
-  margin-left: 600px;
+  margin-top: 330px;
+  margin-left: -455px;
 }
 .orange-line {
   background: url(images/line-ffbf09.png) 0 0 no-repeat;
-  margin-top: 410px;
-  margin-left: 475px;
+  margin-top: 400px;
+  margin-left: -540px;
 }
 
 #colophon {
