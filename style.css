@@ -336,7 +336,7 @@ body {
   height: 552px; 
   width: 52px;
   position: absolute;
-  top: 200px;
+  top: 0;
   left: 50%;
 }
 .blue-line {
@@ -350,6 +350,16 @@ body {
 }
 .purple-line {
   background: url(images/line-de7eff.png) 0 0 no-repeat;
+  margin-left: 475px;
+}
+.pink-line {
+  background: url(images/line-ec297b.png) 0 0 no-repeat;
+  margin-top: 330px;
+  margin-left: 600px;
+}
+.orange-line {
+  background: url(images/line-ffbf09.png) 0 0 no-repeat;
+  margin-top: 390px;
   margin-left: 475px;
 }
 

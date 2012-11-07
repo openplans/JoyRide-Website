@@ -123,6 +123,9 @@
 
       </div>
 
+      <div class="line pink-line" id="why-pink-line"></div>
+      <div class="line orange-line" id="why-orange-line"></div>
+
     </div><!-- end .section -->
 
     <footer id="colophon" class="section">
@@ -194,6 +197,8 @@ if($record != null) {
             $('#why-blue-line').css('top',(0-(scrolled*.1))+'px');
             $('#why-green-line').css('top',(0-(scrolled*.8))+'px');
             $('#why-purple-line').css('top',(0-(scrolled*.3))+'px');
+            $('#why-pink-line').css('top',(0-(scrolled*.1))+'px');
+            $('#why-orange-line').css('top',(0-(scrolled*.2))+'px');
         }
 
         
