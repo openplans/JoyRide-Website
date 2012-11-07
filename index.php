@@ -92,38 +92,30 @@
 
     </div><!-- end .section -->
 
-    <div class="section clearfix">
+    <div class="section clearfix why">
 
       <div class="container">
 
-        <h3>Why another transit app?</h3>
-
-	<p>
-	With the announcement of iOS version 6, Apple has dropped Google Maps and with it, previously built-in support for travel directions via public transit.
-	</p>
-
-	<p>
-	JoyRide brings public transit directions back to the iPhone, adding features that Google Maps didn’t have, including combining walking, bikes, bike-share and transit together, finding the fastest and most efficient trips regardless of mode of transportation.
-	</p>
-
-	<p>
-	At OpenPlans, we believe the way we get around is changing. We increasingly combine bikes and transit. And in many cities we’re seeing a birth of whole new modes of transport like bike-share and carshare. At OpenPlans we build open source tools that are responsive to these changes and let us imagine new ways of moving.  
-	</p>
+        <div class="content">
+          <h3>Why another transit app?</h3>
+	        <p>With the announcement of iOS version 6, Apple has dropped Google Maps and with it, previously built-in support for travel directions via public transit.</p>
+	        <p>JoyRide brings public transit directions back to the iPhone, adding features that Google Maps didn’t have, including combining walking, bikes, bike-share and transit together, finding the fastest and most efficient trips regardless of mode of transportation.</p>
+          <p>At OpenPlans, we believe the way we get around is changing. We increasingly combine bikes and transit. And in many cities we’re seeing a birth of whole new modes of transport like bike-share and carshare. At OpenPlans we build open source tools that are responsive to these changes and let us imagine new ways of moving.  </p>
+        </div>
 
       </div>
 
     </div><!-- end .section -->
 
-    <div class="section clearfix">
+    <div class="section clearfix who">
 
       <div class="container">
 
-        <h3>Who is behind JoyRide?</h3>
-        <p>JoyRide was built by the great team at <a href="http://www.openplans.org">OpenPlans</a>, with the support of over <a href="http://www.kickstarter.com/projects/228865951/transit-app-for-ios-6-and-beyond">800 backers on Kickstarter!</a></p>
-
-	<p>
-	OpenPlans builds open source civic infrastructure. We collaborate with the public sector to create technology for more efficient, responsive, and inclusive government. Our tools address difficult transportation and planning problems&mdash;from multi-modal trip planning to public input on infrastructure projects.
-	</p>
+        <div class="content">
+          <h3>Who is behind JoyRide?</h3>
+          <p>JoyRide was built by the great team at <a href="http://www.openplans.org">OpenPlans</a>, with the support of over <a href="http://www.kickstarter.com/projects/228865951/transit-app-for-ios-6-and-beyond">800 backers on Kickstarter!</a></p>
+	        <p>OpenPlans builds open source civic infrastructure. We collaborate with the public sector to create technology for more efficient, responsive, and inclusive government. Our tools address difficult transportation and planning problems&mdash;from multi-modal trip planning to public input on infrastructure projects.</p>
+        </div>
 
       </div>
 

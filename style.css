@@ -308,6 +308,12 @@ body {
   z-index: 100;
 }
 
+.who .content,
+.why .content {
+  width: 700px;
+  margin: 0 auto;
+}
+
 
 /* =Media Queries for Responsive Layout
 -------------------------------------------------------------- */
