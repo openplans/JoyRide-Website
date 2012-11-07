@@ -135,8 +135,7 @@
 
         // Leaflet Map
   			var map = new L.Map('map', { 
-  			  'scrollWheelZoom': false,
-			  'zoomControl': false
+  			  'scrollWheelZoom': false
   			  })<?php
 $record = null;
 
@@ -159,7 +158,8 @@ if($record != null) {
 
         L.tileLayer('http://{s}.tiles.mapbox.com/v3/openplans.map-g4j0dszr,openplans.gtfs_coverage/{z}/{x}/{y}.png', {
 	        attribution: 'Map data &copy; OpenStreetMap contributors, CC-BY-SA',
-          maxZoom: 18
+          minZoom: 4,
+          maxZoom: 9
         }).addTo(map);
 
 
