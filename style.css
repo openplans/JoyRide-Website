@@ -236,6 +236,9 @@ body {
           box-shadow: inset 500px 0px 100px #eee;*/
 }
 
+.primary {
+  padding-top: 25px;
+}
 .primary .content {
   position: relative;
   float: right;
@@ -243,7 +246,7 @@ body {
 }
 
 #site-title {
-  margin-top: 2em;
+  margin-top: 120px;
 }
 #site-title img {
   width: 311px;
@@ -260,7 +263,7 @@ body {
   height: 585px;
   background: url(images/iphone.png) 0 0 no-repeat scroll;
   float: right;
-  margin-right: 2em;
+  margin-right: 3em;
 }
 #carousel {
   position: relative;
@@ -317,6 +320,37 @@ body {
 .who .content p,
 .why .content p {
   text-shadow: -1px 1px 0 #eee;
+}
+
+#colophon {
+  color: #eee;
+  background: #555;
+  border-top: 2px solid rgba(255,255,255,0.25);
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+.line {
+  content: "\0020"; 
+  display: block; 
+  height: 552px; 
+  width: 52px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+}
+.blue-line {
+  background: url(images/line-00b0d8.png) 0 0 no-repeat;
+  margin-left: 375px;
+}
+.green-line {
+  background: url(images/line-7ce232.png) 0 0 no-repeat;
+  margin-top: 400px;
+  margin-left: -600px;
+}
+.purple-line {
+  background: url(images/line-de7eff.png) 0 0 no-repeat;
+  margin-left: 475px;
 }
 
 

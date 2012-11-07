@@ -103,6 +103,10 @@
           <p>The way we get around is changing. We increasingly combine bikes and transit. And in many cities we&#8217;re seeing a birth of whole new modes of transport like bike-share and carshare. At OpenPlans we build open source tools that are responsive to these changes and let us imagine new ways of moving.  </p>
         </div>
 
+        <div class="line blue-line" id="why-blue-line"></div>
+        <div class="line green-line" id="why-green-line"></div>
+        <div class="line purple-line" id="why-purple-line"></div>
+
       </div>
 
     </div><!-- end .section -->
@@ -120,6 +124,16 @@
       </div>
 
     </div><!-- end .section -->
+
+    <footer id="colophon" class="section">
+      <div class="container">
+        <div class="content">
+          OpenPlans Logo
+          Made In NYC Logo
+          Contact Info
+        </div>
+      </div>
+    </footer>
 
   </div><!-- end #page -->
 
@@ -170,6 +184,19 @@ if($record != null) {
   		  });
 
 
+        // Parallax Scrolling
+        $(window).bind('scroll',function(e){
+            parallaxScroll();
+        });
+
+        function parallaxScroll(){
+            var scrolled = $(window).scrollTop();
+            $('#why-blue-line').css('top',(0-(scrolled*.1))+'px');
+            $('#why-green-line').css('top',(0-(scrolled*.8))+'px');
+            $('#why-purple-line').css('top',(0-(scrolled*.3))+'px');
+        }
+
+        
       });
     });
   </script>
