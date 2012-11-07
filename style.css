@@ -322,14 +322,6 @@ body {
   text-shadow: -1px 1px 0 #eee;
 }
 
-#colophon {
-  color: #eee;
-  background: #555;
-  border-top: 2px solid rgba(255,255,255,0.25);
-  padding-top: 25px;
-  padding-bottom: 75px;
-}
-
 .line {
   content: "\0020"; 
   display: block; 
@@ -354,13 +346,33 @@ body {
 }
 .pink-line {
   background: url(images/line-ec297b.png) 0 0 no-repeat;
-  margin-top: 330px;
+  margin-top: 340px;
   margin-left: 600px;
 }
 .orange-line {
   background: url(images/line-ffbf09.png) 0 0 no-repeat;
-  margin-top: 390px;
+  margin-top: 410px;
   margin-left: 475px;
+}
+
+#colophon {
+  color: #eee;
+  background: #555;
+  border-top: 2px solid rgba(255,255,255,0.25);
+  padding-top: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 14px;
+     -moz-box-shadow: inset 0px -100px 100px rgba(0,0,0,0.3), 0px -6px 0 rgba(255,255,255,0.25);
+  -webkit-box-shadow: inset 0px -100px 100px rgba(0,0,0,0.3), 0px -6px 0 rgba(255,255,255,0.25);
+          box-shadow: inset 0px -100px 100px rgba(0,0,0,0.3), 0px -6px 0 rgba(255,255,255,0.25);
+}
+#openplans-logo {
+  width: 236px;
+  height: auto;
+  position: relative;
+  top: 21px;
+  margin-right: 20px;
 }
 
 

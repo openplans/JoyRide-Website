@@ -131,9 +131,8 @@
     <footer id="colophon" class="section">
       <div class="container">
         <div class="content">
-          OpenPlans Logo
-          Made In NYC Logo
-          Contact Info
+          <a href="http://openplans.org/"><img src="images/openplans-logo-white@2x.png" id="openplans-logo" /></a>
+          148 Lafayette Street, New York, NY 10013 &nbsp; | &nbsp; (212) 796-4220
         </div>
       </div>
     </footer>
